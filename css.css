@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto; 
+    font-size: 16px; 
+    text-align: center;
+    background-image:"//imagenesconfrasesbonitas.com/wp-content/uploads/Fondos-de-Pantalla-del-Chelsea-FC-para-Celular-13.jpg"
+}
+
+
+
+header {
+    background-color: #022263;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+
+}
+
+
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse; 
+    width: 50%;
+    background-color: #f4f4f4; 
+    font-family: Fantasy, sans-serif;
+    color:"black" ;
+    table-layout: fixed;
+    border-collapse: separate;
+
+}
+
+tr {
+
+    border: "2" ;
+    color:"black";
+    max-width: 10px;
+    max-height: 10px;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    color:#003DA5;
+    overflow: hidden;
+}
+
+
+footer {
+    background-color: #003DA5;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 16px;
+
+}
+
+p {
+    color: white; 
+    text-align: center; 
+    font-size: 25px; 
+    margin: 10px 0 0 0;
+}
+
+h1 {
+    color:white; 
+    font-family: Fantasy, serif;
+    font-size: 62px; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.header-content {
+    display: flex; 
+    padding: 25px; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px; 
+    height:auto; 
+    margin-right: 400px;
+}
+
+.escudo{
+    width: 150px; 
+    height: auto;
+    margin-left: 400px;
+}
+
+.tabla-container {
+    width: 45%;  
+    margin: 20px 2%;  
+    display: inline-block; 
+    vertical-align: top;
+}
